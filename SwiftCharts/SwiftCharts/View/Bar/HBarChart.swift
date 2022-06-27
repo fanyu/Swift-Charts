@@ -8,7 +8,7 @@
 import SwiftUI
 import Charts
 
-struct BarChart: View {
+struct HBarChart: View {
     
     var body: some View {
         Chart(MockData.countrySales, id: \.name) {
@@ -22,8 +22,8 @@ struct BarChart: View {
     }
 }
 
-struct BarChart_Previews: PreviewProvider {
+struct HBarChart_Previews: PreviewProvider {
     static var previews: some View {
-        BarChart()
+        HBarChart()
     }
 }

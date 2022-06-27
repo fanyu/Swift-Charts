@@ -41,7 +41,7 @@
 		7CB8BAD82867F40800AC3FC0 /* LollipopLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8BAD72867F40800AC3FC0 /* LollipopLineChart.swift */; };
 		7CD31A9B2866FE6600C00660 /* TimeSheetBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD31A9A2866FE6600C00660 /* TimeSheetBarChart.swift */; };
 		7CD31A9D2867007000C00660 /* AnimatingLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD31A9C2867007000C00660 /* AnimatingLineChart.swift */; };
-		7CD31AA02867021300C00660 /* ContributionsRectangleChart.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD31A9F2867021300C00660 /* ContributionsRectangleChart.swift.swift */; };
+		7CD31AA02867021300C00660 /* ContributionsRectangleChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD31A9F2867021300C00660 /* ContributionsRectangleChart.swift */; };
 		7CD31AA428670FA200C00660 /* CandleBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD31AA328670FA200C00660 /* CandleBarChart.swift */; };
 /* End PBXBuildFile section */
 
@@ -82,7 +82,7 @@
 		7CB8BAD72867F40800AC3FC0 /* LollipopLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LollipopLineChart.swift; sourceTree = "<group>"; };
 		7CD31A9A2866FE6600C00660 /* TimeSheetBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSheetBarChart.swift; sourceTree = "<group>"; };
 		7CD31A9C2867007000C00660 /* AnimatingLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingLineChart.swift; sourceTree = "<group>"; };
-		7CD31A9F2867021300C00660 /* ContributionsRectangleChart.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionsRectangleChart.swift.swift; sourceTree = "<group>"; };
+		7CD31A9F2867021300C00660 /* ContributionsRectangleChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionsRectangleChart.swift; sourceTree = "<group>"; };
 		7CD31AA328670FA200C00660 /* CandleBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleBarChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,7 +215,7 @@
 		7CD31A9E286701EF00C00660 /* Rectangle */ = {
 			isa = PBXGroup;
 			children = (
-				7CD31A9F2867021300C00660 /* ContributionsRectangleChart.swift.swift */,
+				7CD31A9F2867021300C00660 /* ContributionsRectangleChart.swift */,
 				7CA859312869B94B00D8F374 /* GradientRectangleChart.swift */,
 			);
 			path = Rectangle;
@@ -310,7 +310,7 @@
 				7C87E4612866AEBF00DD0867 /* BarWithPointChart.swift.swift in Sources */,
 				7C87E45228669F2300DD0867 /* DualBarChart.swift in Sources */,
 				7C87E4722866B8D700DD0867 /* HeartBeatLineChart.swift in Sources */,
-				7CD31AA02867021300C00660 /* ContributionsRectangleChart.swift.swift in Sources */,
+				7CD31AA02867021300C00660 /* ContributionsRectangleChart.swift in Sources */,
 				7CD31AA428670FA200C00660 /* CandleBarChart.swift in Sources */,
 				7C87E46A2866B32D00DD0867 /* DulePointChart.swift in Sources */,
 				7C87E44A28669D7800DD0867 /* PointChart.swift in Sources */,

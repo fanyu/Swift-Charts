@@ -1,5 +1,5 @@
 //
-//  ContributionsRectangleChart.swift.swift
+//  ContributionsRectangleChart.swift
 //  SwiftCharts
 //
 //  Created by FanYu on 2022/6/25.
@@ -8,7 +8,7 @@
 import SwiftUI
 import Charts
 
-struct ContributionsRectangleChart_swift: View {
+struct ContributionsRectangleChart: View {
     
     var body: some View {
         Chart(MockData.contribution, id: \.level) {
@@ -28,8 +28,8 @@ struct ContributionsRectangleChart_swift: View {
     
 }
 
-struct ContributionsRectangleChart_swift_Previews: PreviewProvider {
+struct ContributionsRectangleChart_Previews: PreviewProvider {
     static var previews: some View {
-        ContributionsRectangleChart_swift()
+        ContributionsRectangleChart()
     }
 }

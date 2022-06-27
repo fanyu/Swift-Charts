@@ -9,11 +9,49 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List {
+            Section("Rectangle") {
+                ContributionsRectangleChart()
+                GradientRectangleChart()
+            }
+            Section("Area") {
+                RangeAreaChart()
+                StackedRangeAreaChart()
+                AreaChart()
+                RangeAreaChart()
+                AreaWithLine()
+            }
+            Section("Line") {
+                LineChart()
+                DualLineChart()
+                HeartBeatLineChart()
+                InteractiveBrushingChart()
+                AnimatingLineChart()
+                LollipopLineChart()
+                GradientLineChart()
+            }
+            Section("Point") {
+                PointChart()
+                DulePointChart()
+            }
+            Section("Bar") {
+                HBarChart()
+                VBarChart()
+                DualBarChart()
+                AudioWaveBarChart()
+                DualBarByPositionChart()
+                PyramidBarChart()
+                OneBarChart()
+                TimeSheetBarChart()
+                RangeBarChart()
+                DualRangeBarChart()
+            }
+            Section("Combine wiht Bar") {
+                CandleBarChart()
+                BarWithPointChart()
+                BarWithRectangleChart()
+                BarWithRuleChart()
+            }
         }
     }
 }
